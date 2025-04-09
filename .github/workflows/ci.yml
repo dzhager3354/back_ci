@@ -19,11 +19,11 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
 
-#      - name: Setup gradle
-#        uses: gradle/actions/setup-gradle@v8
-#
-#      - name: Build with Gradle
-#        run: ./gradlew build
+      - name: Setup gradle
+        uses: gradle/actions/setup-gradle@v8
+
+      - name: Build with Gradle
+        run: ./gradlew build
 #
 #      - name: Upload build artifacts
 #        uses: actions/upload-artifact@v8
